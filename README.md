@@ -23,16 +23,14 @@ This GitHub provides getting started instructions and details about Micro Develo
 
 <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/MicroBreadboard_kit_Pinouts.jpg" width="" height="">
 
-<!--
 ## Getting Started with Micro Development Kit
 - Connect your MicroFlex MCU board with Kit as shown below,
 
   <>
 
 - Now follow corresponding steps to setup your board to use with MicroPython or Arduino =>
- - [Arduino Setup on ](https://github.com/sbcshop/MicroFlex_MCU_Software/tree/main/MicroFlex%20with%20Arduino%20IDE)
- - [MicroPython Setup on MicroFlex - RP2040, S3, S2, C3 and C6](https://github.com/sbcshop/MicroFlex_MCU_Software/tree/main/MicroFlex%20with%20Micropython)
--->
+ - [MicroFlex MCU Arduino Setup](https://github.com/sbcshop/MicroFlex_MCU_Software/tree/main/MicroFlex%20with%20Arduino%20IDE)
+ - [MicroFlex MCU MicroPython Setup](https://github.com/sbcshop/MicroFlex_MCU_Software/tree/main/MicroFlex%20with%20Micropython)
 
 
 ## Resources
