@@ -19,6 +19,21 @@ This GitHub provides getting started instructions and details about Micro Develo
   - Mini Breaboard 170 pts for additional hardware interfacing
 - Most popular programming language MicroPython, CircuitPython, and Arduino supported.
 
+<!--
+### 📑 Table of Contents
+1. [Pinout]()
+2. [Getting Started with Micro Development Kit]()
+3. [Lessons]()
+    * [Lesson 1 : How to Blink LED]()
+    * [Lesson 2 : Control LED with Button]()
+    * [Lesson 3 : PWM LED and Buzzer control with Potentiometer]()
+    * [Lesson 3 : PWM LED and Buzzer control with Potentiometer]()
+    * [Lesson 3 : PWM LED and Buzzer control with Potentiometer]()
+
+ 4. [Resources]()
+ 5. [Related Products]()
+-->
+
 ## Pinout
 
 <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/MicroBreadboard_kit_Pinouts.jpg" width="" height="">
@@ -29,9 +44,15 @@ This GitHub provides getting started instructions and details about Micro Develo
   <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/MicroMCU_breadboardkit.png" width="337" height="280">
 
 - Now follow corresponding steps to setup your board to use with MicroPython or Arduino =>
-   - [MicroFlex MCU Arduino Setup](https://github.com/sbcshop/MicroFlex_MCU_Software/tree/main/MicroFlex%20with%20Arduino%20IDE)
-   - [MicroFlex MCU MicroPython Setup](https://github.com/sbcshop/MicroFlex_MCU_Software/tree/main/MicroFlex%20with%20Micropython)
+   - [MicroPython Setup for MicroFlex MCU ](https://github.com/sbcshop/MicroFlex_MCU_Software/tree/main/MicroFlex%20with%20Micropython)
+   - [Arduino Setup for MicroFlex MCU](https://github.com/sbcshop/MicroFlex_MCU_Software/tree/main/MicroFlex%20with%20Arduino%20IDE)
 
+## Tutorial 
+### 1. How to Blink LED
+### 2. Control LED with Button
+### 3. PWM LED and Buzzer control with Potentiometer
+### 4. Display Simple Text on LCD 
+### 5. Display POT voltage and Button Status 
 
 ## Resources
   * [Schematic](https://github.com/sbcshop/Micro_Development_Kit_Hardware/blob/main/Design%20Data/Micro%20Breadboard%20kit%20SCH.PDF)
