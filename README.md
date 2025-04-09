@@ -19,22 +19,18 @@ This GitHub provides getting started instructions and details about Micro Develo
   - Mini Breaboard 170 pts for additional hardware interfacing
 - Most popular programming language MicroPython, CircuitPython, and Arduino supported.
 
-<!--
 ### 📑 Table of Contents
-1. [Pinout]()
-2. [Getting Started with Micro Development Kit]()
-3. [Lessons]()
+1. [Hardware Overview](https://github.com/sbcshop/Micro_Development_Kit_Software/tree/main#pinout)
+2. [Getting Started with Micro Development Kit](https://github.com/sbcshop/Micro_Development_Kit_Software/tree/main#getting-started-with-micro-development-kit)
     * [Lesson 1 : How to Blink LED]()
     * [Lesson 2 : Control LED with Button]()
     * [Lesson 3 : PWM LED and Buzzer control with Potentiometer]()
     * [Lesson 3 : PWM LED and Buzzer control with Potentiometer]()
     * [Lesson 3 : PWM LED and Buzzer control with Potentiometer]()
-
  4. [Resources]()
  5. [Related Products]()
--->
 
-## Pinout
+## Hardware Overview
 
 <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/MicroBreadboard_kit_Pinouts.jpg" width="" height="">
 
@@ -46,13 +42,44 @@ This GitHub provides getting started instructions and details about Micro Develo
 - Now follow corresponding steps to setup your board to use with MicroPython or Arduino =>
    - [MicroPython Setup for MicroFlex MCU ](https://github.com/sbcshop/MicroFlex_MCU_Software/tree/main/MicroFlex%20with%20Micropython)
    - [Arduino Setup for MicroFlex MCU](https://github.com/sbcshop/MicroFlex_MCU_Software/tree/main/MicroFlex%20with%20Arduino%20IDE)
+- When particular MicroFlex MCU board connected on Dev kit check corresponding GPIOs mapped over physical pins.
+  
+  <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/rp2040_pinmapped.png" width="265" height="170">
+  
+  For example, if Micro RP2040 connected =>
+  | Physical Pin | Micro RP2040 | | Micro RP2040 | Physical Pin |
+  |--------------|--------------|-|--------------|--------------|
+  | 5V           | 5V           | | GP16         | 17           |
+  | GND          | GND          | | GP17         | 16           |
+  | 3V3          | 3V3          | | GP28         | 15           |
+  | 1            | GP0          | | GP27         | 14           |
+  | 2            | GP1          | | GP13         | 13           |
+  | 3            | GP2          | | GP12         | 12           |
+  | 4            | GP3          | | GP11         | 11           |
+  | 5            | GP4          | | GP10         | 10           |
+  | 6            | GP5          | | GP9          | 9            |
+  | 7            | GP7          | | GP8          | 8            |
 
-## Tutorial 
+  Similarly, cross check for others Micro boards what GPIOs mapped with physical pins while doing hardware interfacing.
+- Also, you can checkout more functional details of corresponding GPIOs breakout for [Micro RP2040](https://github.com/sbcshop/MicroFlex_MCU_Software/tree/main?tab=readme-ov-file#micro-rp2040), [Micro S3](https://github.com/sbcshop/MicroFlex_MCU_Software/tree/main#micro-s3), [Micro S2](https://github.com/sbcshop/MicroFlex_MCU_Software/tree/main#micro-s3), [Micro C3](https://github.com/sbcshop/MicroFlex_MCU_Software/tree/main?tab=readme-ov-file#micro-c3) and [Micro C6](https://github.com/sbcshop/MicroFlex_MCU_Software/tree/main?tab=readme-ov-file#micro-c3).
+
+  
 ### 1. How to Blink LED
+**Objective**: In this lesson we will try to blink onboard LED. 
+- There are total four LEDs available. Connect MCU board on developement kit as discussed in above section
+- Let suppose Micro RP2040 used, so make following hardware connection using jumper wire.
+  |Physical Pin | RP2040 | Hardware |
+  |-------------|--------|----------|
+  | 7           | GP7    | LED1     |
+  
+- Depending on your platform of choice you can use Arduino or MicroPython code
+
+<!---
 ### 2. Control LED with Button
 ### 3. PWM LED and Buzzer control with Potentiometer
 ### 4. Display Simple Text on LCD 
 ### 5. Display POT voltage and Button Status 
+-->
 
 ## Resources
   * [Schematic](https://github.com/sbcshop/Micro_Development_Kit_Hardware/blob/main/Design%20Data/Micro%20Breadboard%20kit%20SCH.PDF)
