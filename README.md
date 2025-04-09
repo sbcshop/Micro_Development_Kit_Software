@@ -6,7 +6,7 @@ Unlock the full potential of Microflex MCU boards with this all-in-one developme
 This GitHub provides getting started instructions and details about Micro Developement Kit.
 
 ## Key Features:
-- Compatible with MicroFlex MCU boards - Micro RP2040, Micro S3, Micro S2, Micro C3 and Micro C6.
+- Compatible with MicroFlex MCU boards - [Micro RP2040](https://shop.sb-components.co.uk/products/micro-flex-mcu-development-board?variant=41264939696211), [Micro S3](https://shop.sb-components.co.uk/products/micro-flex-mcu-development-board?variant=41264939597907), [Micro S2](https://shop.sb-components.co.uk/products/micro-flex-mcu-development-board?variant=41264939630675), [Micro C3](https://shop.sb-components.co.uk/products/micro-flex-mcu-development-board?variant=41264939663443) and [Micro C6](https://shop.sb-components.co.uk/products/micro-flex-mcu-development-board?variant=41264939565139).
 - A compact and comprehensive kit with useful components onboard to make STEM learning easy and quick getting started.
 - Development Kit equipped:
   - 4x Buttons
@@ -19,18 +19,18 @@ This GitHub provides getting started instructions and details about Micro Develo
   - Mini Breaboard 170 pts for additional hardware interfacing
 - Most popular programming language MicroPython, CircuitPython, and Arduino supported.
 
-## Pinout and Interfacing Details
+## Pinout
 
 <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/MicroBreadboard_kit_Pinouts.jpg" width="" height="">
 
 ## Getting Started with Micro Development Kit
 - Connect your MicroFlex MCU board with Kit as shown below,
 
-  <>
+  <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/MicroMCU_breadboardkit.png" width="337" height="280">
 
 - Now follow corresponding steps to setup your board to use with MicroPython or Arduino =>
- - [MicroFlex MCU Arduino Setup](https://github.com/sbcshop/MicroFlex_MCU_Software/tree/main/MicroFlex%20with%20Arduino%20IDE)
- - [MicroFlex MCU MicroPython Setup](https://github.com/sbcshop/MicroFlex_MCU_Software/tree/main/MicroFlex%20with%20Micropython)
+   - [MicroFlex MCU Arduino Setup](https://github.com/sbcshop/MicroFlex_MCU_Software/tree/main/MicroFlex%20with%20Arduino%20IDE)
+   - [MicroFlex MCU MicroPython Setup](https://github.com/sbcshop/MicroFlex_MCU_Software/tree/main/MicroFlex%20with%20Micropython)
 
 
 ## Resources
