@@ -11,10 +11,10 @@ For Reference ADC pins checkout pinout details =>
 https://github.com/sbcshop/MicroFlex_MCU_Software/tree/main#pinout-and-interfacing-details
 '''
 pot = ADC(Pin(27))  		# ADC1 - GP27 for Pico, ADC1_CH0 - GP1 for ESP32 S3 Micro similarly change for others
-buzzer = PWM(Pin(8))        # Buzzer on GPIO8
+buzzer = PWM(Pin(7))        # Buzzer on GPIO7
 buzzer.duty_u16(32768)      # Set buzzer to 50% duty cycle
 
-led = PWM(Pin(7))           # LED on GPIO7
+led = PWM(Pin(4))           # LED on GPIO4
 led.freq(1000)              # LED PWM frequency
 
 while True:
