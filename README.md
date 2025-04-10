@@ -72,7 +72,7 @@ This GitHub provides getting started instructions and details about Micro Develo
   |-----------------|--------------|----------|
   | 7               | GP7          | LED1     |
 
-  <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/led_interface_wiring.png" width="352" height="283">
+  <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/led_wiring.jpg" width="352" height="283">
 
 - Depending on your platform of choice you can use,
   * [Arduino code - LED Blink]()
@@ -140,10 +140,17 @@ This GitHub provides getting started instructions and details about Micro Develo
 
   <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/lcd_wiring.jpg" width="459" height="382">
 
-- Choose suitable code for demo,
-  * [Arduino code - LCD Display Demo]()
-  * [MicroPython code - LCD Display Demo](https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/Micropython%20examples/LCD_Demo.py)
+- Choose suitable code for demo, for LCD demo code there is dependency on some external library so make sure to transfer or installed files.
+  * [Arduino code - LCD Display Demo]() - 
+    
+  * <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/lcd_wiring.jpg" width="459" height="382">
 
+ 
+  * [MicroPython code - LCD Display Demo](https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/Micropython%20examples/LCD_Demo.py) - transfer [lib](https://github.com/sbcshop/Micro_Development_Kit_Software/tree/main/Micropython%20examples/lib) folder provided in github to MCU as shown,
+   
+    <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/upload_lib.png" width="959" height="510">
+  
+  
 ### 5. Display Potentiometer and Button Status
 **Objective**: In this lesson value of potentiometer as voltage variation and button status displayed on TFT LCD.
 - Follow the wiring connection below,
