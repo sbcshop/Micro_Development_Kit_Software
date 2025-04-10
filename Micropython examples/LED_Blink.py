@@ -3,7 +3,7 @@
 from machine import Pin  
 import time
 
-led = Pin(7, Pin.OUT)    # Define GPIO8 as Output for LED connection
+led = Pin(7, Pin.OUT)    # Define GPIO7 as Output for LED connection
 
 while True:
     led.on()  # Turn LED on 
