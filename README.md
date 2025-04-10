@@ -26,7 +26,7 @@ This GitHub provides getting started instructions and details about Micro Develo
     * [Lesson 2 : Control LED with Button]()
     * [Lesson 3 : PWM LED and Buzzer control with Potentiometer]()
     * [Lesson 4 : Display Simple Text on LCD ]()
-    * [Lesson 5 : Display POT voltage and Button Status]()
+    * [Lesson 5 : Display Potentiometer and Button Status]()
  4. [Resources]()
  5. [Related Products]()
 
@@ -68,9 +68,9 @@ This GitHub provides getting started instructions and details about Micro Develo
 **Objective**: In this lesson we will try to blink onboard LED. 
 - There are total four LEDs available. Connect MCU board on developement kit as discussed in above section
 - Let suppose Micro RP2040 used, so make following hardware connection using jumper wire.
-  |Physical Pin | RP2040 | Hardware |
-  |-------------|--------|----------|
-  | 7           | GP7    | LED1     |
+  |Kit Physical Pin | Micro RP2040 | Hardware |
+  |-----------------|--------------|----------|
+  | 7               | GP7          | LED1     |
 
   <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/led_interface_wiring.png" width="352" height="283">
 
@@ -93,10 +93,79 @@ This GitHub provides getting started instructions and details about Micro Develo
   <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/micropython_ledBlink.jpg" width="" height="">
  
 ### 2. Control LED with Button
-### 3. PWM LED and Buzzer control with Potentiometer
-### 4. Display Simple Text on LCD 
-### 5. Display POT voltage and Button Status 
+**Objective**: In this lesson we will control LED ON/OFF using onboard Button switch.
+- There are total four Button and LED onboard. For demo we will use SW1 and LED1.  
+- Let suppose Micro RP2040 used, so make following hardware connection using jumper wire. 
+  |Kit Physical Pin | Micro RP2040 | Hardware |
+  |-----------------|--------------|----------|
+  | 7               | GP7          | SW1      |  
+  | 8               | GP8          | LED1     |
 
+  <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/switch_led_wiring.jpg" width="464" height="383">
+
+- Depending on your platform of choice you can use,
+  * [Arduino code - LED Switch Control]()
+  * [MicroPython code - LED Switch Control](https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/Micropython%20examples/LED_Switch_Demo.py)
+
+- Once code uploaded, press and release button to see LED Blink.
+  
+### 3. PWM LED and Buzzer control with Potentiometer
+**Objective**: In this lesson we will checkout concept of PWM using Potentiometer, LED and Buzzer interfacing with MicroFlex MCU.
+- Make following hardware connection using jumper wire,
+  |Kit Physical Pin | Micro RP2040 | Hardware |
+  |-----------------|--------------|----------|
+  | 5               | GP4          | LED1     |  
+  | 7               | GP7          | BUZZ     |
+  | 14              | GP27         | POT      |
+
+  <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/pot_led_buzzer_wiring.jpg" width="489" height="382">
+
+- Depending on platform select code,
+  * [Arduino code - POT LED Buzzer interfacing]()
+  * [MicroPython code - POT LED Buzzer interfacing](https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/Micropython%20examples/POT_LED_Buzzer_Demo.py)
+
+- Rotate Potentiometer knob to see LED dimming and buzzer sound variation.
+  
+### 4. Display Simple Text on LCD 
+**Objective**: In this lesson you can learn how to display simple text on LCD display.
+- Follow the wiring connection below,
+  |Kit Physical Pin | Micro RP2040 | Hardware |
+  |-----------------|--------------|----------|
+  | 8               | GP8          | LCD_BL   |  
+  | 9               | GP9          | LCD_RST  |
+  | 11              | GP11         | LCD_MOSI |
+  | 10              | GP10         | LCD_CLK  |
+  | 13              | GP13         | LCD_CS   |
+  | 12              | GP12         | LCD_DC   |
+
+  <img src="" width="" height="">
+
+- Choose suitable code for demo,
+  * [Arduino code - LCD Display Demo]()
+  * [MicroPython code - LCD Display Demo](https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/Micropython%20examples/LED_Switch_Demo.py)
+
+### 5. Display Potentiometer and Button Status
+**Objective**: In this lesson value of potentiometer as voltage variation and button status displayed on TFT LCD.
+- Follow the wiring connection below,
+  |Kit Physical Pin | Micro RP2040 | Hardware |
+  |-----------------|--------------|----------|
+  | 8               | GP8          | LCD_BL   |  
+  | 9               | GP9          | LCD_RST  |
+  | 11              | GP11         | LCD_MOSI |
+  | 10              | GP10         | LCD_CLK  |
+  | 13              | GP13         | LCD_CS   |
+  | 12              | GP12         | LCD_DC   |
+  | 14              | GP27         | POT      |
+  | 7               | GP7          | SW1      |
+
+  <img src="" width="" height="">
+
+- Depending on your platform of choice you can use,
+  * [Arduino code - Pot Button LCD interfacing]()
+  * [MicroPython code - Pot Button LCD interfacing](https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/Micropython%20examples/LCD_Pot_Button.py)
+
+- Rotate Potentiometer know to see real time value display on LCD and also press button to check status.
+  
 ## Resources
   * [Schematic](https://github.com/sbcshop/Micro_Development_Kit_Hardware/blob/main/Design%20Data/Micro%20Breadboard%20kit%20SCH.PDF)
   * [Hardware Files](https://github.com/sbcshop/Micro_Development_Kit_Hardware)
