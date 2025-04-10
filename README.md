@@ -138,11 +138,11 @@ This GitHub provides getting started instructions and details about Micro Develo
   | 13              | GP13         | LCD_CS   |
   | 12              | GP12         | LCD_DC   |
 
-  <img src="" width="" height="">
+  <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/lcd_wiring.jpg" width="459" height="382">
 
 - Choose suitable code for demo,
   * [Arduino code - LCD Display Demo]()
-  * [MicroPython code - LCD Display Demo](https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/Micropython%20examples/LED_Switch_Demo.py)
+  * [MicroPython code - LCD Display Demo](https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/Micropython%20examples/LCD_Demo.py)
 
 ### 5. Display Potentiometer and Button Status
 **Objective**: In this lesson value of potentiometer as voltage variation and button status displayed on TFT LCD.
@@ -158,13 +158,14 @@ This GitHub provides getting started instructions and details about Micro Develo
   | 14              | GP27         | POT      |
   | 7               | GP7          | SW1      |
 
-  <img src="" width="" height="">
+  <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/lcd_pot_switch_wiring.jpg" width="454" height="384">
 
 - Depending on your platform of choice you can use,
   * [Arduino code - Pot Button LCD interfacing]()
   * [MicroPython code - Pot Button LCD interfacing](https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/Micropython%20examples/LCD_Pot_Button.py)
 
 - Rotate Potentiometer know to see real time value display on LCD and also press button to check status.
+  <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/LCD_pot_btn_demo.jpg" width="333" height="231">
   
 ## Resources
   * [Schematic](https://github.com/sbcshop/Micro_Development_Kit_Hardware/blob/main/Design%20Data/Micro%20Breadboard%20kit%20SCH.PDF)
