@@ -25,8 +25,8 @@ This GitHub provides getting started instructions and details about Micro Develo
     * [Lesson 1 : How to Blink LED]()
     * [Lesson 2 : Control LED with Button]()
     * [Lesson 3 : PWM LED and Buzzer control with Potentiometer]()
-    * [Lesson 3 : PWM LED and Buzzer control with Potentiometer]()
-    * [Lesson 3 : PWM LED and Buzzer control with Potentiometer]()
+    * [Lesson 4 : Display Simple Text on LCD ]()
+    * [Lesson 5 : Display POT voltage and Button Status]()
  4. [Resources]()
  5. [Related Products]()
 
@@ -71,15 +71,31 @@ This GitHub provides getting started instructions and details about Micro Develo
   |Physical Pin | RP2040 | Hardware |
   |-------------|--------|----------|
   | 7           | GP7    | LED1     |
-  
-- Depending on your platform of choice you can use Arduino or MicroPython code
 
-<!---
+  <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/led_interface_wiring.png" width="352" height="283">
+
+- Depending on your platform of choice you can use,
+  * [Arduino code - LED Blink]()
+  * [MicroPython code - LED Blink](https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/Micropython%20examples/LED_Blink.py)
+
+- Select correct board with suitable COM port and upload code in case of **Arduino**
+
+  <img src="https://github.com/sbcshop/MicroFlex_MCU_Software/blob/main/images/rp2040_board_select.png" width="959" height="511">
+
+  <img src="https://github.com/sbcshop/MicroFlex_MCU_Software/blob/main/images/rpi_port.png" width="516" height="372">
+  
+  <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/arduino_ledBlink.jpg" width="959" height="509">
+
+  Similarly, if using other MCU like ESP32 S3, S2, C3 or C6 then select board as shown in section [here](https://github.com/sbcshop/MicroFlex_MCU_Software/tree/main/MicroFlex%20with%20Arduino%20IDE#micro-esp32---s3-s2-c3-and-c6)
+
+- For **MicroPython** style coding, select suitable board and click green play button to run code or save code as **main.py** for standalone execution.
+
+  <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/micropython_ledBlink.jpg" width="" height="">
+ 
 ### 2. Control LED with Button
 ### 3. PWM LED and Buzzer control with Potentiometer
 ### 4. Display Simple Text on LCD 
 ### 5. Display POT voltage and Button Status 
--->
 
 ## Resources
   * [Schematic](https://github.com/sbcshop/Micro_Development_Kit_Hardware/blob/main/Design%20Data/Micro%20Breadboard%20kit%20SCH.PDF)
