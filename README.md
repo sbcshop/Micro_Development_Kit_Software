@@ -22,13 +22,13 @@ This GitHub provides getting started instructions and details about Micro Develo
 ### 📑 Table of Contents
 1. [Hardware Overview](https://github.com/sbcshop/Micro_Development_Kit_Software/tree/main#pinout)
 2. [Getting Started with Micro Development Kit](https://github.com/sbcshop/Micro_Development_Kit_Software/tree/main#getting-started-with-micro-development-kit)
-    * [Lesson 1 : How to Blink LED]()
-    * [Lesson 2 : Control LED with Button]()
-    * [Lesson 3 : PWM LED and Buzzer control with Potentiometer]()
-    * [Lesson 4 : Display Simple Text on LCD ]()
-    * [Lesson 5 : Display Potentiometer and Button Status]()
- 4. [Resources]()
- 5. [Related Products]()
+    * [Lesson 1 : How to Blink LED](https://github.com/sbcshop/Micro_Development_Kit_Software/tree/main?tab=readme-ov-file#1-how-to-blink-led)
+    * [Lesson 2 : Control LED with Button](https://github.com/sbcshop/Micro_Development_Kit_Software/tree/main?tab=readme-ov-file#2-control-led-with-button)
+    * [Lesson 3 : PWM LED and Buzzer control with Potentiometer](https://github.com/sbcshop/Micro_Development_Kit_Software/tree/main?tab=readme-ov-file#3-pwm-led-and-buzzer-control-with-potentiometer)
+    * [Lesson 4 : Display Simple Text on LCD ](https://github.com/sbcshop/Micro_Development_Kit_Software/tree/main?tab=readme-ov-file#4-display-simple-text-on-lcd)
+    * [Lesson 5 : Display Potentiometer and Button Status](https://github.com/sbcshop/Micro_Development_Kit_Software/tree/main?tab=readme-ov-file#5-display-potentiometer-and-button-status)
+ 4. [Resources](https://github.com/sbcshop/Micro_Development_Kit_Software/tree/main?tab=readme-ov-file#resources)
+ 5. [Related Products](https://github.com/sbcshop/Micro_Development_Kit_Software/tree/main?tab=readme-ov-file#related-products)
 
 ## Hardware Overview
 
@@ -75,7 +75,7 @@ This GitHub provides getting started instructions and details about Micro Develo
   <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/led_wiring.jpg" width="352" height="283">
 
 - Depending on your platform of choice you can use,
-  * [Arduino code - LED Blink]()
+  * [Arduino code - LED Blink](https://github.com/sbcshop/Micro_Development_Kit_Software/tree/main/Arduino%20examples/Blink_LED)
   * [MicroPython code - LED Blink](https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/Micropython%20examples/LED_Blink.py)
 
 - Select correct board with suitable COM port and upload code in case of **Arduino**
@@ -104,7 +104,7 @@ This GitHub provides getting started instructions and details about Micro Develo
   <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/switch_led_wiring.jpg" width="464" height="383">
 
 - Depending on your platform of choice you can use,
-  * [Arduino code - LED Switch Control]()
+  * [Arduino code - LED Switch Control](https://github.com/sbcshop/Micro_Development_Kit_Software/tree/main/Arduino%20examples/LED_Switch_Demo)
   * [MicroPython code - LED Switch Control](https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/Micropython%20examples/LED_Switch_Demo.py)
 
 - Once code uploaded, press and release button to see LED Blink.
