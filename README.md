@@ -121,7 +121,7 @@ This GitHub provides getting started instructions and details about Micro Develo
   <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/pot_led_buzzer_wiring.jpg" width="489" height="382">
 
 - Depending on platform select code,
-  * [Arduino code - POT LED Buzzer interfacing]()
+  * [Arduino code - POT LED Buzzer interfacing](https://github.com/sbcshop/Micro_Development_Kit_Software/tree/main/Arduino%20examples/POT_LED_Buzzer_PWM)
   * [MicroPython code - POT LED Buzzer interfacing](https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/Micropython%20examples/POT_LED_Buzzer_Demo.py)
 
 - Rotate Potentiometer knob to see LED dimming and buzzer sound variation.
