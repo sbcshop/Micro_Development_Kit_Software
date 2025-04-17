@@ -67,7 +67,7 @@ This GitHub provides getting started instructions and details about Micro Develo
 ### 1. How to Blink LED
 **Objective**: In this lesson we will try to blink onboard LED. 
 - There are total four LEDs available. Connect MCU board on developement kit as discussed in above section
-- Let suppose Micro RP2040 used, so make following hardware connection using jumper wire.
+- Let suppose Micro RP2040 used, so make following hardware connection using jumper wire. Similarly, you can change GPIO pin as per different MicroFlex MCU board. 
   |Kit Physical Pin | Micro RP2040 | Hardware |
   |-----------------|--------------|----------|
   | 7               | GP7          | LED1     |
@@ -131,19 +131,28 @@ This GitHub provides getting started instructions and details about Micro Develo
 - Follow the wiring connection below,
   |Kit Physical Pin | Micro RP2040 | Hardware |
   |-----------------|--------------|----------|
-  | 8               | GP8          | LCD_BL   |  
-  | 9               | GP9          | LCD_RST  |
-  | 11              | GP11         | LCD_MOSI |
-  | 10              | GP10         | LCD_CLK  |
-  | 13              | GP13         | LCD_CS   |
   | 12              | GP12         | LCD_DC   |
+  | 13              | GP13         | LCD_CS   |
+  | 10              | GP10         | LCD_CLK  |
+  | 11              | GP11         | LCD_MOSI |
+  | 9               | GP9          | LCD_RST  |
+  | 8               | GP8          | LCD_BL   |
 
   <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/lcd_wiring.jpg" width="459" height="382">
-
+- For ESP32-based boards, you can use the connections listed below, which are used in the code that is available on Github. However, as any pin can be used as SPI, you are free to alter them as long as you also modify the GPIO in the code.
+  |Kit Physical Pin | Micro ESP32 - C3  | Hardware |
+  |-----------------|-----------------|----------|
+  | 11              | GP8             | LCD_DC   |
+  | 10              | GP7             | LCD_CS   |
+  | 9               | GP6             | LCD_CLK  |
+  | 6               | GP5             | LCD_MOSI |
+  | 5               | GP4             | LCD_RST  |
+  | 4               | GP3             | LCD_BL   |
+  
 - Choose suitable code for demo, for LCD demo code there is dependency on some external library so make sure to transfer or installed files.
-  * [Arduino code - LCD Display Demo]() - 
+  * [Arduino code - LCD Display Demo]() - We need graphics and st7789 display driver library with version as highlighted
     
-  * <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/lcd_wiring.jpg" width="459" height="382">
+    <img src="" width="459" height="382">
 
  
   * [MicroPython code - LCD Display Demo](https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/Micropython%20examples/LCD_Demo.py) - transfer [lib](https://github.com/sbcshop/Micro_Development_Kit_Software/tree/main/Micropython%20examples/lib) folder provided in github to MCU as shown,
@@ -154,16 +163,17 @@ This GitHub provides getting started instructions and details about Micro Develo
 ### 5. Display Potentiometer and Button Status
 **Objective**: In this lesson value of potentiometer as voltage variation and button status displayed on TFT LCD.
 - Follow the wiring connection below,
+ 
   |Kit Physical Pin | Micro RP2040 | Hardware |
   |-----------------|--------------|----------|
-  | 8               | GP8          | LCD_BL   |  
-  | 9               | GP9          | LCD_RST  |
-  | 11              | GP11         | LCD_MOSI |
-  | 10              | GP10         | LCD_CLK  |
-  | 13              | GP13         | LCD_CS   |
   | 12              | GP12         | LCD_DC   |
+  | 13              | GP13         | LCD_CS   |
+  | 10              | GP10         | LCD_CLK  |
+  | 11              | GP11         | LCD_MOSI |
+  | 9               | GP9          | LCD_RST  |
+  | 8               | GP8          | LCD_BL   |
   | 14              | GP27         | POT      |
-  | 7               | GP7          | SW1      |
+  | 7               | GP7          | SW1      | 
 
   <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/lcd_pot_switch_wiring.jpg" width="454" height="384">
 
