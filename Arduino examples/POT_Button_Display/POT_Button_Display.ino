@@ -1,6 +1,5 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_ST7789.h>
-#include <Fonts/FreeSansBold12pt7b.h>
 #include <SPI.h>
 
 // =================== BOARD-SPECIFIC PIN SETUP ===================
