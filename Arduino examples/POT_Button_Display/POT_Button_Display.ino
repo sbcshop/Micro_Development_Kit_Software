@@ -1,3 +1,5 @@
+// Interfacing code for Potentiometer, Button and LCD display with MicroFlex MCU board
+
 #include <Adafruit_GFX.h>
 #include <Adafruit_ST7789.h>
 #include <SPI.h>
@@ -75,7 +77,7 @@ void loop() {
     prevPotRaw = potRaw;
   }
 
-  // Update button status only if changed
+  // Display button status when pressed, HIGH - normally and LOW - when pressed
   if (buttonPressed == 0) {
     tft.setCursor(30, 200);
     tft.setTextColor(ST77XX_WHITE);
