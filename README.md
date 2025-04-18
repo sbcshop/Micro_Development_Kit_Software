@@ -150,12 +150,16 @@ This GitHub provides getting started instructions and details about Micro Develo
   | 4               | GP3             | LCD_BL   |
   
 - Choose suitable code for demo, for LCD demo code there is dependency on some external library so make sure to transfer or installed files.
-  * [Arduino code - LCD Display Demo]() - We need graphics and st7789 display driver library with version as highlighted
-    
-    <img src="" width="459" height="382">
+  * [Arduino code - LCD Display Demo](https://github.com/sbcshop/Micro_Development_Kit_Software/tree/main/Arduino%20examples/LCD_Demo) - To use this code, we need graphics GFX (v1.12.0) and st7789 (v1.11.0) display driver library with version as highlighted installed through manage libraries.
+
+    <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/manage_libraries.png" width="959" height="509">
+
+    <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/gfx_lib_version.png" width="488" height="145">
+
+    <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/st7789_lib_version.png" width="488" height="145">
 
  
-  * [MicroPython code - LCD Display Demo](https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/Micropython%20examples/LCD_Demo.py) - transfer [lib](https://github.com/sbcshop/Micro_Development_Kit_Software/tree/main/Micropython%20examples/lib) folder provided in github to MCU as shown,
+  * [MicroPython code - LCD Display Demo](https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/Micropython%20examples/LCD_Demo.py) - to use this code transfer [lib](https://github.com/sbcshop/Micro_Development_Kit_Software/tree/main/Micropython%20examples/lib) folder provided in github to MCU as shown,
    
     <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/upload_lib.png" width="959" height="510">
   
@@ -178,7 +182,7 @@ This GitHub provides getting started instructions and details about Micro Develo
   <img src="https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/images/lcd_pot_switch_wiring.jpg" width="454" height="384">
 
 - Depending on your platform of choice you can use,
-  * [Arduino code - Pot Button LCD interfacing]()
+  * [Arduino code - Pot Button LCD interfacing](https://github.com/sbcshop/Micro_Development_Kit_Software/tree/main/Arduino%20examples/POT_Button_Display)
   * [MicroPython code - Pot Button LCD interfacing](https://github.com/sbcshop/Micro_Development_Kit_Software/blob/main/Micropython%20examples/LCD_Pot_Button.py)
 
 - Rotate Potentiometer know to see real time value display on LCD and also press button to check status.
