@@ -20,7 +20,7 @@ This GitHub provides getting started instructions and details about Micro Develo
 - Most popular programming language MicroPython, CircuitPython, and Arduino supported.
 
 ### 📑 Table of Contents
-1. [Hardware Overview](https://github.com/sbcshop/Micro_Development_Kit_Software/tree/main#pinout)
+1. [Hardware Overview](https://github.com/sbcshop/Micro_Development_Kit_Software/tree/main?tab=readme-ov-file#hardware-overview)
 2. [Getting Started with Micro Development Kit](https://github.com/sbcshop/Micro_Development_Kit_Software/tree/main#getting-started-with-micro-development-kit)
     * [Lesson 1 : How to Blink LED](https://github.com/sbcshop/Micro_Development_Kit_Software/tree/main?tab=readme-ov-file#1-how-to-blink-led)
     * [Lesson 2 : Control LED with Button](https://github.com/sbcshop/Micro_Development_Kit_Software/tree/main?tab=readme-ov-file#2-control-led-with-button)
